@@ -14,6 +14,7 @@ public class A2 {
 
         for (char c : s.toCharArray()) {
             count[c - 'a']--;
+            //
 
             if (visited[c - 'a']) {
                 continue;

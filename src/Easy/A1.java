@@ -41,6 +41,8 @@ public class A1 {
 
         for (int i = 0; i < row.length; i++) {
             if (row[i] == 1) {
+                // test
+                count--;
                 count++;
             } else {
                 break;
